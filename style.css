@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+img {
+  width: 300px;
+  height: 200px;
+  margin: 200px;
+  animation: magaru 3s linear infinite;
+}
+
+@keyframes magaru {
+  0% {
+    transform: scale(1,1) translate(0,0);
+  }
+  20% {
+    transform: scale(2,2) translate(900px,0);
+  }
+  40% {
+    transform: scale(3,0) translate(900px,-200px);
+  }
+  60% {
+    transform: scale(0,0) translate(100px,-100px);
+  }
+  80% {
+    transform: scale(7,5);
+  }
+  100% {
+    transform: scale(1,1) translate(0,0);
+  }
+}
